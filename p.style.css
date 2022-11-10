@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
+  
+  /* NAVIGATION BAR */
+ header{
+    width: 100%;
+    height: 115px;
+    background-color: #d7f6a5;
+ }
+  .wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  
+  .clearfix{
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .main-header{
+    width: 100%;
+  }
+  
+  .left{
+    float: left;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+
+  }
+
+  .left-image{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .right{
+    float: right;
+    padding-right: 80px;
+    padding-top: 25px;
+  }
+  
+  .right ul li{
+    display: inline-block;
+    /* padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    padding: 10px 15px 5px 15px;
+    /* padding: 10px 15px 5px; */
+    font-size: 17px;
+    font-family: Montserrat;
+    
+  
+  }
+  
+  .right a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .right a:hover{
+    color: #f80;
+    text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+  }
+
+    /*banner section*/
+
+  .banner{
+    position: relative;
+  }
+  
+  .banner img{
+    width: 100%;
+    height: 700px;
+    margin-top: -7px;
+    background-attachment:fixed;
+    background-size: cover;
+  }
+  
+  .banner-heading{
+    
+    color:rgb(255, 255, 255) ;
+    padding-bottom: 50px;
+  }
+  .banner-content{
+    position: absolute;
+    left: 100px;
+    transform: translate(59%, -197%);
+    font-size: 33px;
+    font-family: Montserrat;
+    color: #fff;
+    text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+  }
+  
+  /*ROW AND COLOUM*/
+
+  .card-section{
+    margin: 30px 0;
+  }
+  
+  h2{
+    padding-top: 30px;
+    font-family: Montserrat;
+    font-weight: 900;
+  }
+  
+  .row{
+    width: 100%;
+
+  }
+  
+  .column{
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: #d7f6a5;
+    margin: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .column img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 110px;
+  }
+  
+  .image-border{
+    border-top: 5px solid white;
+  }
+  
+   /* SEAFOOD */
+
+   .extra{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .section-title{
+    text-align: center;
+  }
+  
+  .section-heading{
+    padding-top: 96px;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .section-para{
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    color: black;
+  }
+  
+  
+  .section-column{
+    width: 23%;
+    float: left;
+    margin: 11px;
+  }
+  
+  .image-heading{
+    font-family: Merriweather;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .img-section-trending{
+    width: 100%;
+    border-radius: 5%;
+  }
+  
+  .image-content{
+    font-family: Montserrat;
+  }
+
+  .img-section-trending-1{
+    height: 185px;
+    width: 250px;
+    border-radius: 5%;
+  }
+
+  .img-section-trending-1{
+    height: 195px;
+    width: 250px;
+  }
+
+
+  /* OUR BRANCHES */
+
+  #property{
+    background-color: #d7f6a5;
+  }
+  h3{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Merriweather;
+    text-align: center;
+  }
+  
+  .description{
+    text-align: center;
+  }
+  
+  .property-heading{
+    padding-top: 70px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .property-para{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Montserrat;
+  }
+  
+  
+  .property-row{
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  
+  .property-column{
+    width: 31.33%;
+    float: left;
+    margin: 11px;
+  }
+  
+  .property-row-para{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: Montserrat;
+  }
+  
+  .property-image{
+    width: 350px;
+    border-radius: 10px;
+    height: 230px;
+  }
+
+  .pabitra{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    padding-left: 50px;
+  }
+
+  
+  /*footer*/
+  
+  .footer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 90%;
+
+    background-color: rgb(34, 33, 33);
+  }
+
+  td {
+    text-align: center;
+    border: 1px solid rgb(33, 33, 33);
+  }
+  .nd_footer{
+    background-color: #131313;
+  }
+  p{
+    color: #ffffff;
+    padding-right: 100px;
+  }
+
+
+  h4{
+    color: red;
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+
+  #fe{
+    padding-left: 50px;
+    
+  }
+
+  h4:hover{
+    color: #ffffff;
+  }
+
+  /*footer end*/
+
+  .footer-end{
+    justify-content: center;
+    color:#d7f6a5 ;
+  }
+
+  .footerlogo{
+    height: 10%;
+    width: 10%;
+    padding-left: 0px;
+  }
+
+  /* .info{
+    color:rgb(34, 33, 33);
+    padding-top: 10px;
+    font-family: 'Mukta', sans-serif;
+  } */
+   
+
+   .info{
+    font-size: 15px;
+    font-weight: 20px;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #333;
+    padding-left: 120px;
+    font-family: 'Roboto Mono', monospace;
+   }
+
+   .copyright{
+    font-size: 15px;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #333;
+    padding-left: 120px;
+    font-family: 'Mukta', sans-serif;
+   }
